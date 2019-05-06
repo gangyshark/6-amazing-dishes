@@ -1,0 +1,113 @@
+body {
+     margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    border: 0px solid black;
+    width: 100%;
+    height: auto;
+    background-color: #cccccc;
+    background-image: url("../images/background.jpg"); /*source of the image: https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260*/
+    background-size: 3000px 2000px;
+} 
+main {
+    margin: 20px auto 20px auto;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid black;
+    width: 80%;
+    min-width:1100px;
+    height: auto;
+    overflow:hidden;
+    background-image: #FFEEEE;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    overflow: hidden;
+}
+header {
+ 
+    margin: 0px 0px 0px 0px;
+    padding: 40px 10px 30px 10px;
+    border-bottom: 2px solid black;
+    width: auto;
+    height: auto;
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:black;
+    text-align:center;
+    font-size:70px;
+    font-weight:bold;
+    font-family: 'Dokdo', cursive;
+    xwidth:97%;
+    xmargin: 5px auto 5px auto;
+    overflow: hidden;
+  
+
+}
+
+header img{
+    margin: 10px 10px 0px 0px;
+    padding: 0px 100px 0px 100px;
+     border: 0px solid white;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    vertical-align: central;
+}
+#chef2{
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+ article{
+    padding: auto;
+     margin:auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    min-width:1100;
+ }
+
+footer{
+    text-align:center;
+  
+}
+
+ /*this is where I styled the photos*/
+ #p2
+{
+width : 400px;
+height : 350px;
+transition: all .2s ease-in-out;
+
+}
+
+#food
+{
+    float: left;
+    padding: 15px;
+    padding: auto;
+     margin:auto;
+   
+}
+
+
+.foodcontainer{
+    width:100%;
+    margin: 5px auto 5px auto;
+    xdisplay: flex;
+    xjustify-content: center;
+    xflex-wrap: wrap;
+    xmin-width:90%;
+    display: grid;
+  grid-column-gap: auto;
+  grid-template-columns: auto auto auto;
+  padding: 10px auto 10px auto;
+}
+
+
+#p2:hover{
+    transform: scale(1.1);
+}

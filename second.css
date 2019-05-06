@@ -1,0 +1,147 @@
+body {
+    margin: 0px auto 0px auto;
+   padding: 0px 0px 0px 0px;
+   border: 0px solid black;
+   width: 100%;
+   height: auto;
+   background-image: url("../not-main/image/background1.jpg"); /*image source for the backgorund:  https://www.pexels.com/photo/plate-of-rice-and-cooked-meat-1624487/ */
+   background-size: 2000px 1000px;
+} 
+main {
+   margin: 20px auto 20px auto;
+   padding: 0px 0px 0px 0px;
+   border: 1px solid black;
+   width: 70%;
+   min-width:1100px;
+   height: auto;
+   overflow:hidden;
+   background: #D3959B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   color: black;
+}
+header {
+    margin:0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: auto;
+    height: auto;
+    min-width:1100px;
+    color:black;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Dokdo', cursive;
+    border-bottom: 3px solid black;
+}
+
+header div{
+    background-color: white;
+    opacity: 0.66;
+    color:black;
+    
+    text-align: center;
+}
+
+#chef2{
+   -moz-transform: scale(-1, 1);
+   -webkit-transform: scale(-1, 1);
+   -o-transform: scale(-1, 1);
+   -ms-transform: scale(-1, 1);
+   transform: scale(-1, 1);
+}
+
+article{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: auto;
+   height: auto;
+  
+}
+
+nav {
+    margin: 5px 0px 5px 0px;
+    padding: 2px 0px 2px 0px;
+    width: 100%;
+    height: auto;
+    background-color: lavender;
+    color: black;
+    
+}
+
+#navlinks {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    border: 0px solid black;
+    list-style: none;
+    text-align:center;
+    background-color: #333;
+    height:50Px;
+}
+#navlinks li {
+        margin: 0px 20px 0px 20px;
+        padding: 2px 2px 2px 2px;
+        
+        display: inline;
+}
+#navlinks li a {
+    padding:8px;
+    color:white;
+    
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    width: auto;
+}
+
+#navlinks a:hover {
+       
+    background: #111
+ }
+
+
+ img{
+     height:500px;
+     width:500px;
+     padding: auto;
+     margin:auto;
+     border-radius:15px;
+ }
+
+ section{
+     margin: 50px 20px 50px 20px;
+     padding: 10px 10px 10px 10px;
+     border:0px solid black;
+     width:auto;
+     height:auto;
+     background-image: url("../not-main/image/section.jpg"); /*source for the picture: https://www.pexels.com/photo/background-canvas-close-up-colour-1020320/*/
+     border-radius:15px;
+     float:none;
+     
+ }
+
+ .left{
+     width:40%;
+     float:left;
+     flex:1;
+     font-weight: bold;
+     
+ }
+ .left li{
+    font-size: 20px;
+ }
+ .right{
+     width:40%;
+     float:right;
+     flex:1;
+     
+ }
+
+ .right div{
+     width:auto;
+     height:auto;
+     overflow: hidden;
+ }
+ 
